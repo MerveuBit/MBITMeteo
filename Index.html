@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center mb-4">
+        <div class="logo">
+            <img src="NUMEDEV__1_-removebg-preview-removebg-preview.png" alt="Logo" class="img-fluid" style="max-width: 100px;">
+        </div>
+        <h1>Prévisions MBIT Météo</h1>
+        <p>Découvrez la météo actuelle et les prévisions pour votre ville ou pays.</p>
+    </header>
+
+    <div class="container mt-5">
+        <!-- Recherche par ville -->
+        <div class="input-group mb-3">
+            <input type="text" id="city" class="form-control" placeholder="Entrez une ville" aria-label="Nom de la ville">
+            <div class="input-group-append">
+                <button id="searchBtn" class="btn btn-primary" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Recherche par coordonnées -->
+        <div class="input-group mb-3">
+            <input type="text" id="latitude" class="form-control" placeholder="Latitude" aria-label="Latitude">
+            <input type="text" id="longitude" class="form-control" placeholder="Longitude" aria-label="Longitude">
+            <div class="input-group-append">
+                <button id="coordBtn" class="btn btn-success" type="button">
+                    <i class="fas fa-map-marker-alt"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Recherche par pays -->
+        <div class="input-group mb-3">
+            <input type="text" id="country" class="form-control" placeholder="Entrez un pays" aria-label="Nom du pays">
+            <div class="input-group-append">
+                <button id="searchCountryBtn" class="btn btn-secondary" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div id="cityList" class="text-center"></div> <!-- Zone pour afficher les villes -->
+        <div id="weatherResult" class="text-center"></div>
+        <div id="forecastResult" class="text-center mt-4"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Prévisions Météo ,<a href="#">MerveuBIT</a> Tous droits réservés.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    background-color: #f0f8ff;
+}
+
+#weatherResult {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #e6f7ff, #fff);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.logo img {
+    animation: fadeIn 10s ease-in-out infinite;
+}
+img:hover {
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg);
+  }
+
+h1 {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.input-group {
+    margin: 20px auto;
+}
+
+#cityList, #weatherResult, #forecastResult {
+    margin: 20px 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background: linear-gradient(to bottom, #e6f7ff, #fff);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    animation: fadeIn 1s ease-in-out;
+    border-radius: 50%; /* Rendre le logo circulaire */
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.input-group {
+    margin: 20px auto;
+}
+
+.input-group .form-control {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+.input-group .btn {
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.input-group .btn:hover {
+    background-color: #0056b3; /* Couleur au survol */
+    transform: scale(1.05); /* Effet d'agrandissement */
+}
+
+#cityList, #weatherResult, #forecastResult {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Couleur d'arrière-plan légère */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+a{
+    color:hsl(180, 100%, 80%);
+}
